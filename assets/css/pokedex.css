@@ -78,6 +78,28 @@
     background-color: #f9aec7;
 }
 
+.pokedex-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokedex-title > h1 {
+    font-family: 'Pokemon Solid', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #f53434;
+    -webkit-text-stroke: 1px #000;
+    text-stroke: 1px #000;
+}
+
+.pokedex-title > p {
+    font-family: 'VCR OSD Mono', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000;
+}
+
 .pokemon {
     display: flex;
     flex-direction: column;
@@ -94,9 +116,11 @@
 }
 
 .pokemon .name {
+    font-family: 'VCR OSD Mono', sans-serif;
     text-transform: capitalize;
     color: #fff;
     margin-bottom: .25rem;
+    cursor: pointer;
 }
 
 .pokemon .detail {
@@ -116,7 +140,7 @@
     color: #fff;
     padding: .25rem .5rem;
     margin: .25rem 0;
-    font-size: .625rem;
+    font-size: .725rem;
     border-radius: 1rem;
     filter: brightness(1.1);
     text-align: center;
@@ -163,12 +187,25 @@
 
 .pagination button {
     padding: .25rem .5rem;
-    margin: .25rem 0;
-    font-size: .625rem;
+    margin: .25rem 0 0 .75rem;
+    font-size: .725rem;
     color: #fff;
-    background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #7c7c7c;
+    cursor: default;
+}
+
+.btn-preview {
+    background-color: #f3ab10;
+}
+
+.btn-next {
+    background-color: #6c79db;
 }
 
 @media screen and (min-width: 380px) {

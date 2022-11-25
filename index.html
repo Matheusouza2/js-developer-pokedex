@@ -17,22 +17,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 
+    <!-- Font Pokemon Solid -->
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+
+    <!-- Font VCR OSD MONO -->
+    <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
+
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/pokedex_draw.css">
     <link rel="stylesheet" href="./assets/css/pokedex.css">
+
 </head>
 
 <body>
     <section class="content">
-        <h1>Pokedex</h1>
+        <div class="pokedex-title">
+            <h1 class="pokedex">Pokedex</h1>
+            <p>Clique sobre o nome dos pokemons para ver os detalhes sobre eles!</p>
+        </div>
 
         <ol id="pokemonList" class="pokemons">
             <!-- ..... Pokemons here ..... -->
         </ol>
 
         <div class="pagination">
-            <button id="loadMoreButton" type="button">
-                Load More
+            <button id="loadPreviewButton" class="btn-preview" type="button">
+                Anterior
+            </button>
+
+            <button id="loadNextButton" class="btn-next" type="button">
+                Próxima
             </button>
         </div>
     </section>

@@ -4,14 +4,17 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;    
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255, 0.7);
 }
 
 @media screen and (min-width: 992px) {
