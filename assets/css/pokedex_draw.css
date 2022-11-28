@@ -723,11 +723,12 @@ CODED BY BIDJI: https://codepen.io/Bidji/pen/MYdPwo
 	div#stats
 	{
 		font-family: 'VCR OSD Mono', sans-serif;
+		font-weight: 500;
 		height: 130px;
 		width: 280px;
 		padding: 10px;
 		background-color: #30da0c;
-		color: #fff;
+		color: #000;
 		z-index: 1;
 		font-size: 13px;
 
@@ -748,7 +749,7 @@ CODED BY BIDJI: https://codepen.io/Bidji/pen/MYdPwo
 
 	div#stats > strong {
 		font-family: 'VCR OSD Mono', sans-serif;
-		font-weight: 300;
+		font-weight: 700;
 	}
 
 	div#blueButtons1

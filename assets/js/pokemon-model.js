@@ -7,4 +7,6 @@ class Pokemon {
     photo;
     ability;
     abilities = [];
+    base_experience;
+    weight;
 }
